@@ -43,7 +43,7 @@ export function ChatGPTSharedInstanceUsageStatistics({ instanceId, className }: 
                     </div>
                   </TooltipTrigger>
                   <TooltipContent side="left">
-                    <p>{item.stats.userCount} 用户在线，对话 {item.stats.count} 次，共 {item.stats.sumUtf8Length ?? 0} 字符</p>
+                    <p>共 {item.stats.userCount} 次登录，共 {item.stats.count} 次对话，共 {item.stats.sumUtf8Length ?? 0} 字符</p>
                   </TooltipContent>
                 </Tooltip>
               </TooltipProvider>
